@@ -1,0 +1,318 @@
+*{margin: 0 auto}
+*{box-sizing: border-box}
+
+
+
+body{
+    background:url("fundo3.jpg") no-repeat center center ;
+    background-size: cover;
+    height: 92vh;
+}
+
+#titulo{
+    width:100%;
+    height:20vw;
+    display: flex;
+    align-items: center;
+}
+
+
+#organizar1{
+    width: 100%;
+    height: 25vw;
+    display: flex;
+    background-color:;
+}
+
+
+#organizar2{
+    width: 100%;
+    height: 25vw;
+    background-color:;
+}
+
+
+
+#organizar3{
+    width: 100%;
+    height: 20vw;
+    background-color:;
+}
+
+
+
+
+
+ #tutorial1{
+    width:30%;
+    height:20vw;
+    display:block;
+    float: left;
+    margin-left:10vw;
+    border: 2px solid black;
+    background-color: ;
+    border-radius:30px;
+ }
+
+
+ #tutorial2{
+    width:30%;
+    height:20vw;
+    display:block;
+    float: right;
+    margin-right:10vw;
+    border: 2px solid black;
+    background-color: ;
+    border-radius:30px;
+ }
+
+ #tutorial3{
+    width:30%;
+    height:20vw;
+    display: block; 
+    float: left;
+    margin-left:10vw;
+    border: 2px solid black;
+    background-color: ;
+    border-radius:30px;
+ }
+
+#imagemsetatutorial{
+    width: 9vw;
+    height:9vw;
+    margin-left:2vw;
+    background-color: ;
+
+}
+
+
+#explicaçaoseta{
+    width: 50%;
+    height: 8vw;
+    float: left;
+    background-color: ;
+}
+
+#explicaçaowasd{
+    width: 50%;
+    height: 8vw;
+    float: right;
+    background-color: ;
+}
+
+
+
+
+#imagemwasdtutorial{
+    width: 8vw;
+    height:6vw;
+    margin-left: 2.5vw;
+    margin-top: 1vw;
+    float: left;
+    background-color: ;
+
+}
+
+#divseta{
+    width: 50%;
+    height: 8vw;
+    float:left;
+    background-color: ;
+}
+
+#divwasd{
+    width: 50%;
+    height: 8vw;
+    float: left;
+    background-color: ;
+}
+
+
+#a{
+    width:100%;
+    height: 8vw;
+    float: left;
+    background-color:;
+}
+
+
+
+
+
+#linha1{
+    width: 100%;
+    height: 0.5vw;
+    margin:0 auto;
+    
+    background-color:black;
+}
+
+#linha2{
+    width: 100%;
+    height: 0.5vw;
+    margin:0 auto;
+    margin-top:11vw;
+    background-color:black;
+
+}
+
+#footer1{
+    width: 33%;
+    height:11vw;
+    display: block;
+    align-items: center;
+    float: left;
+    background-color:;
+    
+    }
+
+#footer2{
+    width: 34%;
+    height:9vw;
+    display: block;
+    align-items: center;
+    float: left;
+    background-color:;
+}
+
+#footer3{
+    width: 33%;
+    height:9vw;
+    display: block;
+    align-items: center;
+    float: left;
+    background-color:;
+
+}
+
+
+
+
+
+#setaaaaa{
+    width: 100%;
+    height: 40%;
+    float: left;
+    background-color:;
+}
+
+
+#wasd{
+    width: 100%;
+    height: 40%;
+    float: left;
+    background-color: ;
+}
+
+
+footer{
+    width: 100%;
+    height:fit-content;
+    float: left;
+    background-color:#23232e;
+    margin-top: 3vw;
+}
+
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+
+
+
+.logo {
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  letter-spacing: 0.4vw;
+}
+
+
+
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background: #23232e;
+  height: 13vh;
+}
+
+
+.nav-list {
+  list-style: none;
+  display: flex;
+ }
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+
+
+a:hover#linkinsta{
+    color: pink;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover#linkface{
+    color: skyblue;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+h1#titulotutoras{font-size:2vw;color:white;padding-top:5vw;}
+
+h1.titulocontroles{font-size:2vw;color:white;padding-top:1vw;padding-left:11vw;}
+
+
+
+
+
+
+h4{font-size:  2vw;color:white;text-align:center}
+p.letra{font-size: 2vw;color:white;padding:10px; text-align: justify}
+p.titulos{font-size: 2vw;color:black;text-align:center}
+p.explicaçaocontroles{font-size: 1vw;color:white;padding-top: 3vw;padding-right:3vw  ;font-weight: bold;}
+p#sobreojogo{font-size: 1vw;color:white;padding: 2vw;font-weight: bold;text-align: justify;}
+
+
+
+
+h2.tituloroda{font-size: 1.5vw;color:white;text-align:center;padding-top: 0.5vw;}
+p.redes{font-size: 0.8vw;color:white;padding:1vw;text-align:left;padding-left:5vw;}
+P#direitos{font-size: 1vw;color:white;padding-top:1vw;padding-right:1vw;float: right;}
+p#texto{font-size: 0.8vw;color:white;padding:1vw;padding-left:4vw;padding-right: 5vw;text-align: justify;}
+p.texto2{font-size: 0.8vw;color:white;padding:1vw;padding-left:8vw;text-align: justify;}
+
+

@@ -1,0 +1,401 @@
+*{margin: 0 auto}
+*{box-sizing: border-box}
+
+
+body{
+    background:url("fundo3.jpg") no-repeat center center ;
+    background-size: cover;
+    height: 92vh;
+
+
+}
+
+
+
+#bordas1{
+    border: 0.1vw solid white;
+    width: 75%;
+    height: 30vw;
+    margin-top:15vw;
+    float: left;
+    margin-left: 5vw;
+    background-color: ;
+
+}
+
+#bordas2{
+
+    border: 0.1vw solid white;
+    width: 75%;
+    height: 30vw;
+    margin-right: 5vw;
+    margin-top:10vw;
+    background-color:;
+    float: right;
+}
+
+#ideiadojogo{
+    border: 0.1vw solid white;
+    width: 80%;
+    height: 15.2vw;
+    float: left;
+    margin-top:10vw;
+    margin-left: 5vw;
+    background-color:;
+
+}
+
+#ideiadojogo1{
+    width: 33%;
+    height: 15vw;
+    float: left;
+    border:0.1vw solid white;
+
+}
+#ideiadojogo2{
+    width: 34%;
+    height: 15vw;
+    float: left;
+    border: 0.1vw solid white;
+
+}
+#ideiadojogo3{
+    width: 33%;
+    height: 15vw;
+    float: left;
+    border: 0.1vw solid white;
+
+}
+
+#foto1{
+    width: 40%;
+    height: 100%;
+    border: 0.1vw solid white;
+    float: left;
+    background-color:;
+}
+
+
+#foto2{
+    width: 40%;
+    height: 100%;
+    float: left;
+    border: 0.1vw solid white;
+}
+
+#info1{
+    width: 60%;
+    height: 100%;
+    border: 0.1vw solid white;
+    overflow: auto;
+    float: left;
+}
+
+#info2{
+    width: 60%;
+    height: 100%;
+    border: 0.1vw solid white;
+    overflow: auto;
+    float: left;
+}
+
+
+#miniimagem{
+    width: 8vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:15vw;
+    background-color:;
+    float: left;
+    margin-left:4vw;
+    border: 0.1vw solid white
+}
+
+
+
+#miniimagem2{
+    width: 8vw;
+    height: 30vw;
+    margin-top:10vw;
+    display: flex;
+    flex-direction: column;
+    background-color: ;
+    align-items: center;
+    justify-content: space-around;
+    float: left;
+    margin-left:5vw;
+    border: 0.1vw solid white
+}
+
+
+#miniimagem3{
+    width: 8vw;
+    height: 15vw;
+    margin-top:10vw;
+    display: flex;
+    flex-direction: column;
+    background-color: ;
+    align-items: center;
+    justify-content: space-around;
+    float: left;
+    margin-left:2vw;
+    border: 0.1vw solid white
+}
+
+
+#linha1{
+    width: 100%;
+    height: 0.5vw;
+    margin:0 auto;
+    
+    background-color:black;
+}
+
+#linha2{
+    width: 100%;
+    height: 0.5vw;
+    margin:0 auto;
+    margin-top:11vw;
+    background-color:black;
+
+}
+
+#footer1{
+    width: 33%;
+    height:11vw;
+    display: block;
+    align-items: center;
+    float: left;
+    background-color:;
+    
+    }
+
+#footer2{
+    width: 34%;
+    height:11vw;
+    display: block;
+    align-items: center;
+    float: left;
+    background-color:;
+}
+
+#footer3{
+    width: 33%;
+    height:11vw;
+    display: block;
+    align-items: center;
+    float: left;
+    background-color:;
+
+}
+
+
+
+footer{
+    width: 100%;
+    height:fit-content;
+    float: left;
+    background-color:#23232e;
+    margin-top: 3vw;
+}
+
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+a:hover#linkinsta{
+    color: pink;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover#linkface{
+    color: skyblue;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+.logo {
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  letter-spacing: 0.4vw;
+}
+
+
+
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background: #23232e;
+  height: 13vh;
+}
+
+
+.nav-list {
+  list-style: none;
+  display: flex;
+ }
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+
+
+@media (max-width: 999px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-list {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: #23232e;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+  .nav-list li {
+    margin-left: 0;
+    opacity: 0;
+  }
+  .mobile-menu {
+    display: block;
+  }
+
+.line1{
+    opacity: 1;
+}
+.line2{
+    opacity: 1;
+}
+
+.line3{
+    opacity: 1;
+}
+
+
+}
+
+.nav-list.active {
+  transform: translateX(0);
+}
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
+
+
+
+
+img#fotogui{
+    width: 70%;
+    height: 100%;
+    margin-left:60px;
+    margin-top:20px;
+    
+}
+
+img#fotofa{
+    width: 100%;
+    height: 100%;
+    margin-left:100px;
+    margin-top: 30px;
+}
+
+img#shurikas{
+    width: 50%;
+    height: 15%;
+}
+
+
+img#shurikasbranca{
+    width: 60%;
+    height: 25%;
+}
+
+img#ninja{
+    width: 50%;
+    height: 25%;
+}
+
+img#ninja2{
+    width: 60%;
+    height: 20%;
+    margin-right:35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+h4{font-size:1.5vw;color:white;text-align:center;margin-top:1vw;}
+h2.tituloroda{font-size: 1.5vw;color:white;text-align:center;padding-top: 0.5vw;}   
+p#guilherme{color: white;padding: 10px; text-align: justify}
+p#fabricio{color: white;padding: 10px; text-align: justify}
+p.letra{font-size: 1vw;color:white;padding:2vw; text-align: justify}
+p.redes{font-size: 0.8vw;color:white;padding:1vw;text-align:left;padding-left:5vw;}
+P#direitos{font-size: 1vw;color:white;padding-top:1vw;padding-right:1vw;float: right;}
+p#texto{font-size: 0.8vw;color:white;padding:1vw;padding-left:4vw;padding-right: 5vw;text-align: justify;}
+p.texto2{font-size: 0.8vw;color:white;padding:1vw;padding-left:8vw;text-align: justify;}
