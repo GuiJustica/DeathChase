@@ -1,4 +1,4 @@
-# 📊 Sistema de Visualização de Algoritmos de Ordenação (JavaScript / Canvas)
+# 📊 Jogo DeathChase (HTML / CSS / JavaScript)
 
 [![JavaScript](https://img.shields.io/badge/Language-JavaScript%2FES6-F7DF1E?style=flat-square&logo=javascript)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 [![Frontend](https://img.shields.io/badge/Interface-HTML5%20Canvas-E94E31?style=flat-square&logo=html5)](https://developer.mozilla.org/pt-BR/docs/Web/API/Canvas_API)
